@@ -36,6 +36,7 @@ namespace CalculadoraWindows
             txtOperacao.Text += botao.Text;
 
         }
+        //botão limpa tudo
         private void btnC_Click(object sender, EventArgs e)
         {
             txtOperacao.Clear();
@@ -64,6 +65,7 @@ namespace CalculadoraWindows
                 apertOp = true;
                 
             }
+            //verificar se não está vazio
             else if(txtOperacao.Text != "" && txtOperacao.Text != "0")
             {
                 // Simular o botão '=':
@@ -92,7 +94,7 @@ namespace CalculadoraWindows
                         txtOperacao.Text = (numero1 * numero2).ToString();
                         numero1 = double.Parse(txtOperacao.Text);
                         lblOpAux.Text = txtOperacao.Text;
-                        //lblOpAux.Text = "";
+                        lblOpAux.Text = "";
                         numero1 = 0;
                         
 
@@ -102,7 +104,7 @@ namespace CalculadoraWindows
                         txtOperacao.Text = (numero1 + numero2).ToString();
                         numero1 = double.Parse(txtOperacao.Text);
                         lblOpAux.Text = txtOperacao.Text;
-                       // lblOpAux.Text = "";
+                        lblOpAux.Text = "";
                         numero1 = 0;
                         
 
@@ -115,7 +117,7 @@ namespace CalculadoraWindows
                         txtOperacao.Text = (numero1 - numero2).ToString();
                         numero1 = double.Parse(txtOperacao.Text);
                         lblOpAux.Text = txtOperacao.Text;
-                        //lblOpAux.Text = "";
+                        lblOpAux.Text = "";
                         numero1 = 0;
                         
                         break;
@@ -128,7 +130,7 @@ namespace CalculadoraWindows
                             txtOperacao.Text = (numero1 / numero2).ToString();
                             numero1 = double.Parse(txtOperacao.Text);
                             lblOpAux.Text = txtOperacao.Text;
-                           // lblOpAux.Text = "";
+                            lblOpAux.Text = "";
                             numero1 = 0;
                         }
                         else
