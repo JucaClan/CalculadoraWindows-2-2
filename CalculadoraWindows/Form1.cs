@@ -136,6 +136,7 @@ namespace CalculadoraWindows
                         else
                         {
                             txtOperacao.Text = "Impossível dividir por zero!";
+
                         }
                         break;
                 }
