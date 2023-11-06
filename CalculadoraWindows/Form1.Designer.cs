@@ -285,7 +285,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(318, 315);
+            this.ClientSize = new System.Drawing.Size(255, 309);
             this.Controls.Add(this.lblOpAux);
             this.Controls.Add(this.btnMultiplicacao);
             this.Controls.Add(this.btnDivisao);
